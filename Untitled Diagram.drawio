@@ -1,19 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T14:05:06.003Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="k2qeHUNn_bwqQig-HuM_" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-08T14:25:34.656Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="1JhtGdiLksO6zWHuCHtb" version="24.6.4" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1050" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="dNxyNK7c78bLwvsdeMH5-19" value="Resources - Reconcile - Process Flow" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" parent="1" vertex="1">
-          <mxGeometry x="110" y="120" width="560" height="490" as="geometry" />
+          <mxGeometry x="110" y="120" width="1010" height="720" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-20" value="KWS" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
-          <mxGeometry x="20" width="540" height="240" as="geometry" />
+          <mxGeometry x="20" width="990" height="240" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="dNxyNK7c78bLwvsdeMH5-20" source="dNxyNK7c78bLwvsdeMH5-23" target="dNxyNK7c78bLwvsdeMH5-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dNxyNK7c78bLwvsdeMH5-23" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="dNxyNK7c78bLwvsdeMH5-20" vertex="1">
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-23" value="START" style="ellipse;whiteSpace=wrap;html=1;" parent="dNxyNK7c78bLwvsdeMH5-20" vertex="1">
           <mxGeometry x="40" y="40" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FNK7BE36KtD4VHtRo9X2-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-20" source="dNxyNK7c78bLwvsdeMH5-24" target="dNxyNK7c78bLwvsdeMH5-30">
@@ -23,19 +23,167 @@
           <mxGeometry x="120" y="30" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-30" value="Create an Incident to BTP_D_NTT" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="dNxyNK7c78bLwvsdeMH5-20" vertex="1">
-          <mxGeometry x="180" y="140" width="160" height="60" as="geometry" />
+          <mxGeometry x="260" y="150" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dNxyNK7c78bLwvsdeMH5-32" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="dNxyNK7c78bLwvsdeMH5-20" vertex="1">
-          <mxGeometry x="460" y="30" width="40" height="40" as="geometry" />
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-32" value="END" style="ellipse;whiteSpace=wrap;html=1;" parent="dNxyNK7c78bLwvsdeMH5-20" vertex="1">
+          <mxGeometry x="880" y="20" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FNK7BE36KtD4VHtRo9X2-22" value="Approved by PO and CM" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-20">
+          <mxGeometry x="470" y="122.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FNK7BE36KtD4VHtRo9X2-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-20" source="FNK7BE36KtD4VHtRo9X2-52" target="dNxyNK7c78bLwvsdeMH5-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FNK7BE36KtD4VHtRo9X2-52" value="Set to KWS-Approval/Proposed Solution" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-20">
+          <mxGeometry x="840" y="127.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-21" value="NTT AMS" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
-          <mxGeometry x="20" y="240" width="540" height="250" as="geometry" />
+          <mxGeometry x="20" y="240" width="990" height="480" as="geometry" />
         </mxCell>
         <mxCell id="FNK7BE36KtD4VHtRo9X2-2" value="NTT DE" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
-          <mxGeometry x="20" y="130" width="520" height="120" as="geometry" />
+          <mxGeometry x="20" y="130" width="970" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="FNK7BE36KtD4VHtRo9X2-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.412;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="FNK7BE36KtD4VHtRo9X2-2" source="FNK7BE36KtD4VHtRo9X2-26" target="FNK7BE36KtD4VHtRo9X2-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FNK7BE36KtD4VHtRo9X2-26" value="Review the changes and Merge&amp;nbsp;&lt;div&gt;&amp;nbsp;&lt;div&gt;develop-HCD; release-HCQ; master-HCP&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="FNK7BE36KtD4VHtRo9X2-2">
+          <mxGeometry x="170" y="35" width="180" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="FNK7BE36KtD4VHtRo9X2-29" value="Merge Request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="FNK7BE36KtD4VHtRo9X2-2">
+          <mxGeometry x="450" y="-10" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FNK7BE36KtD4VHtRo9X2-30" value="Replication&amp;nbsp;&lt;div&gt;Running in HCD&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="FNK7BE36KtD4VHtRo9X2-2">
+          <mxGeometry x="530" y="25" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FNK7BE36KtD4VHtRo9X2-34" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FNK7BE36KtD4VHtRo9X2-2">
+          <mxGeometry x="630" y="65" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FNK7BE36KtD4VHtRo9X2-35" value="Request to reconcile in HCQ" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FNK7BE36KtD4VHtRo9X2-2">
+          <mxGeometry x="700" y="20" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FNK7BE36KtD4VHtRo9X2-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="FNK7BE36KtD4VHtRo9X2-2" source="FNK7BE36KtD4VHtRo9X2-39" target="FNK7BE36KtD4VHtRo9X2-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FNK7BE36KtD4VHtRo9X2-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FNK7BE36KtD4VHtRo9X2-2" source="FNK7BE36KtD4VHtRo9X2-39" target="FNK7BE36KtD4VHtRo9X2-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FNK7BE36KtD4VHtRo9X2-39" value="HCD/&amp;nbsp;&lt;div&gt;HCQ/&amp;nbsp;&lt;/div&gt;&lt;div&gt;HCP&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="FNK7BE36KtD4VHtRo9X2-2">
+          <mxGeometry x="410" y="30" width="80" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="FNK7BE36KtD4VHtRo9X2-33" value="HCD" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FNK7BE36KtD4VHtRo9X2-2">
+          <mxGeometry x="470" y="75" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FNK7BE36KtD4VHtRo9X2-43" value="Replication&amp;nbsp;&lt;div&gt;running in HCQ&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="FNK7BE36KtD4VHtRo9X2-2">
+          <mxGeometry x="540" y="130" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FNK7BE36KtD4VHtRo9X2-46" value="Request to reconcile in HCP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FNK7BE36KtD4VHtRo9X2-2">
+          <mxGeometry x="730" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FNK7BE36KtD4VHtRo9X2-54" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FNK7BE36KtD4VHtRo9X2-2">
+          <mxGeometry x="630" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FNK7BE36KtD4VHtRo9X2-55" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FNK7BE36KtD4VHtRo9X2-2">
+          <mxGeometry x="640" y="160" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FNK7BE36KtD4VHtRo9X2-3" value="NTT AMS - INDIA" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
-          <mxGeometry x="20" width="520" height="130" as="geometry" />
+          <mxGeometry x="20" width="970" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="FNK7BE36KtD4VHtRo9X2-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="FNK7BE36KtD4VHtRo9X2-3" source="FNK7BE36KtD4VHtRo9X2-6" target="FNK7BE36KtD4VHtRo9X2-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FNK7BE36KtD4VHtRo9X2-6" value="Create an Incident to BTP_D_NTT" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="FNK7BE36KtD4VHtRo9X2-3">
+          <mxGeometry x="110" y="20" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FNK7BE36KtD4VHtRo9X2-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="FNK7BE36KtD4VHtRo9X2-3" source="FNK7BE36KtD4VHtRo9X2-15" target="FNK7BE36KtD4VHtRo9X2-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="55" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FNK7BE36KtD4VHtRo9X2-15" value="Stop replication of affected Tables" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="FNK7BE36KtD4VHtRo9X2-3">
+          <mxGeometry x="265" y="30" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FNK7BE36KtD4VHtRo9X2-19" value="Create RFC incident(2 Series) and RFC with Table Owner as PO" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="FNK7BE36KtD4VHtRo9X2-3">
+          <mxGeometry x="450" y="25" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="FNK7BE36KtD4VHtRo9X2-24" value="Reconcile the Table. Include the changes in SMP - Internal Note" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="FNK7BE36KtD4VHtRo9X2-3">
+          <mxGeometry x="600" y="25" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FNK7BE36KtD4VHtRo9X2-51" value="Confirm the TEST" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="FNK7BE36KtD4VHtRo9X2-3">
+          <mxGeometry x="820" y="27.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FNK7BE36KtD4VHtRo9X2-27" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-21" source="FNK7BE36KtD4VHtRo9X2-26" target="FNK7BE36KtD4VHtRo9X2-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="190" as="sourcePoint" />
+            <mxPoint x="740" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="120" />
+              <mxPoint x="570" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FNK7BE36KtD4VHtRo9X2-28" value="" style="shape=message;html=1;outlineConnect=0;" vertex="1" parent="FNK7BE36KtD4VHtRo9X2-27">
+          <mxGeometry width="20" height="14" relative="1" as="geometry">
+            <mxPoint x="-10" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FNK7BE36KtD4VHtRo9X2-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-21" source="FNK7BE36KtD4VHtRo9X2-30" target="FNK7BE36KtD4VHtRo9X2-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="780" y="195" />
+              <mxPoint x="780" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FNK7BE36KtD4VHtRo9X2-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-21" source="FNK7BE36KtD4VHtRo9X2-43" target="FNK7BE36KtD4VHtRo9X2-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="320" />
+              <mxPoint x="830" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FNK7BE36KtD4VHtRo9X2-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.36;exitY=1.093;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;dashPattern=8 8;strokeWidth=3;entryX=0.367;entryY=0.047;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="dNxyNK7c78bLwvsdeMH5-24" target="FNK7BE36KtD4VHtRo9X2-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="270" as="sourcePoint" />
+            <mxPoint x="190" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FNK7BE36KtD4VHtRo9X2-11" value="FallBack - Exception&amp;nbsp;&lt;div&gt;Observed in Remote Source&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="FNK7BE36KtD4VHtRo9X2-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FNK7BE36KtD4VHtRo9X2-12" value="Source" style="edgeLabel;resizable=0;html=1;;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="FNK7BE36KtD4VHtRo9X2-10">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FNK7BE36KtD4VHtRo9X2-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="dNxyNK7c78bLwvsdeMH5-30" target="FNK7BE36KtD4VHtRo9X2-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FNK7BE36KtD4VHtRo9X2-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="FNK7BE36KtD4VHtRo9X2-19" target="FNK7BE36KtD4VHtRo9X2-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FNK7BE36KtD4VHtRo9X2-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="FNK7BE36KtD4VHtRo9X2-22" target="FNK7BE36KtD4VHtRo9X2-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FNK7BE36KtD4VHtRo9X2-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="FNK7BE36KtD4VHtRo9X2-51" target="FNK7BE36KtD4VHtRo9X2-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FNK7BE36KtD4VHtRo9X2-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FNK7BE36KtD4VHtRo9X2-47" target="FNK7BE36KtD4VHtRo9X2-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FNK7BE36KtD4VHtRo9X2-47" value="Replication&amp;nbsp;&lt;div&gt;running in HCQ&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="740" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FNK7BE36KtD4VHtRo9X2-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.051;entryY=0.58;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FNK7BE36KtD4VHtRo9X2-39" target="FNK7BE36KtD4VHtRo9X2-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="798" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
